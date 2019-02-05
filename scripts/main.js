@@ -69,6 +69,7 @@ function sourceChanged(e){
   // document.getElementById('newsList').innerHTML ='';
 
   //set the link to the url and the button name to the site 
+
   for(let i=0; i< newsData.sources.length; i++ ){
     if(newsData.sources[i].id == e.target.value){
       //set the button text and link 
